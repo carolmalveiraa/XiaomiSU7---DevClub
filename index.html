@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- VERSÃO DO HTML -->
+<html lang="pt-br">
+  <!-- TAG HTML E LINGUA DO SITE -->
+
+  <head>
+    <!-- CONFIGURAÇÕES DO SITE -->
+    <meta charset="UTF-8" />
+    <!-- PADRÃO DE CARACTERES DO SITE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SITE COMPATÍVEL COM CELULAR E COMPUTADOR -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- IMPORTANDO MEU ARQUIVO CSS -->
+    <title>DevClub - Xiaomi</title>
+    <!-- TITULO DO SITE -->
+  </head>
+
+  <body>
+    <img src="/xiaomi/Xiaomi-Logo-2014.png" alt="Logo da Xiaomi" class="logo" />
+
+    <ul class="lista">
+      <!-- ITEM 1 -->
+      <li class="item">
+        <video src="/xiaomi/Xiaomi SU7.mp4" muted loop autoplay></video>
+
+        <div class="info-carro">
+          <h1>MODELO SU7</h1>
+          <!-- TITULO -->
+          <p class="sub-titulo">299.900 yuans (R$ 208 mil).</p>
+        </div>
+
+        <div class="rodape">
+          <button id="buyNow">Comprar Agora</button>
+          <button class="test-drive">Faça um Test-Drive</button>
+          <p class="texto-rodape">
+            Não garantimos seu veículo imediatamente. Prazo máximo de 31
+            semanas.*
+          </p>
+        </div>
+      </li>
+
+      <!-- ITEM 2 -->
+      <li class="item">
+        <img
+          src="./xiaomi/Xiaomi-SU7.jpg"
+          class="img-tesla"
+          alt="imagem model 3"
+        />
+
+        <div class="info-carro">
+          <h1>SEDÃ ELÉTRICO</h1>
+          <!-- TITULO -->
+          <p class="sub-titulo">Compre agora o seu Su7</p>
+        </div>
+      </li>
+
+      <!-- ITEM 3 -->
+      <li class="item">
+        <video
+          src="/xiaomi/Xiaomi SU7  Drift Mode.mp4"
+          muted
+          loop
+          autoplay
+        ></video>
+
+        <div class="info-carro">
+          <h1>TRÊS VERSÕES</h1>
+          <!-- TITULO -->
+          <p class="sub-titulo">A partir de R$150 mil até R$210 mil</p>
+        </div>
+      </li>
+    </ul>
+<section id="contactSection">
+        <h2>Comprar Agora</h2>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label>Nome</label>
+            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+            <button type="submit">Enviar</button>
+
+            <input type="hidden" name="accessKey" value="8850a9c4-1c22-4a61-8789-789b256b7a9c">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+        </form>
+</section>
+</body>
+
+  </body>
+  <script src="scripts.js"></script>
+</html>
